@@ -21,6 +21,7 @@ creative_commons:
 
 sidebar:
   position: left
+  site_state: true
 toc:
   enable: true
   number: true
@@ -41,8 +42,13 @@ footer:
 # 下设第一级放在sidebar，
 # 第二级为顶栏，第三级为顶栏第二行
 menu:
-  # home: / || fa fa-bell
+  
   Docs:
     default: /notes/ || fa fa-book
     深度学习:
       default: /deepl/ || fa fa-magic
+  
+  # 数字图像处理: 
+  #   default: 
+    
+    #  https://dip.cvcg.cc || fa fa-file-lines
